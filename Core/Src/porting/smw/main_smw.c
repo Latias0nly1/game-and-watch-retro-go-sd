@@ -28,6 +28,8 @@
 #include "smw/src/common_cpu_infra.h"
 #include "smw/src/smw_spc_player.h"
 
+unsigned char *RtlGetSram(void);
+
 #pragma GCC optimize("Ofast")
 
 
